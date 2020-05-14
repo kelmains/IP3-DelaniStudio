@@ -19,7 +19,7 @@ This iterative process allows for changes as business requirements evolve.
 HTML CSS |BOOTSTRAP JAVASCRIPT
 
 #### Website access
-The webpage can be accessed through https://kelmains.github.io/Delani-Studio/
+The webpage can be accessed through https://kelmains.github.io/IP3-DelaniStudio/
 
 ### Contact Information
 Twitter https://twitter.com/kelmains
