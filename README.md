@@ -16,7 +16,10 @@ Planning and development is iterative. Because we are constantly coding and test
 This iterative process allows for changes as business requirements evolve.
 
 ### Technologies used
-HTML CSS |BOOTSTRAP JAVASCRIPT
+1).HTML 
+2).CSS 
+3).BOOTSTRAP 
+4).JAVASCRIPT
 
 #### Website access
 The webpage can be accessed through https://kelmains.github.io/IP3-DelaniStudio/
