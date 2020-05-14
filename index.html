@@ -58,17 +58,45 @@
         <br>
         <div class="row">
           <div class="col-md-4">
-            <img src="assets\services_icons\design_icon.png" alt="design">
-            <p>Design</p>
+            <div class="hover panel">
+                <div class="front">
+                    <div class="pad">
+                      <img src="assets\services_icons\design_icon.png" alt="design">
+                      <br>
+                      <p>Design</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>This is the back side of Design</p>
+                </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <img src="assets\services_icons\dev_icon.png" alt="developement">
-            <p>Developement</p>
+            <div class="hover panel">
+                <div class="front">
+                    <div class="pad">
+                      <img src="assets\services_icons\dev_icon.png" alt="developement">
+                      <p>Developement</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>This is the back side of Developement</p>
+                </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <img src="assets\services_icons\product_icon.png" alt="product-management" >
-            <br>
-            <p>Product Management</p>
+            <div class="hover panel">
+                <div class="front">
+                    <div class="pad">
+                      <img src="assets\services_icons\product_icon.png" alt="product-management" >
+                      <br>
+                      <p>Product Management</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <p>This is the back side of Developement</p>
+                </div>
+            </div>
           </div>
           <br>
         </div>
@@ -197,5 +225,18 @@
 
 </footer>
 <!-- Footer -->
+
+     <script type="text/javascript">
+        $(document).ready(function(){
+           // set up hover panels
+           // although this can be done without JavaScript, we've attached these events
+          // because it causes the hover to be triggered when the element is tapped on a touch device
+        $('.hover').hover(function(){
+            $(this).addClass('flip');
+        },function(){
+            $(this).removeClass('flip');
+        });
+    });
+    </script>
   </body>
 </html>
